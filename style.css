@@ -965,7 +965,6 @@ font-size: 16px !important;
 line-height: 30px;
 }
 
-
 body {
 min-width: 1280px;
 }
@@ -1037,3 +1036,174 @@ padding: 8px;
 body#layout div.add_widget a {
 margin-left: 32px;
 }
+.fa {
+  padding: 15px;
+  font-size: 22px;
+  width: 51.1px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #8da3fc;
+  color: black;
+
+}
+
+.fa-twitter {
+  background: #bfd7ff;
+  color: black;
+}
+
+.fa-google {
+  background: #ffa0a0;
+  color: black;
+}
+
+
+
+.fa-youtube {
+  background: #ffc6c6;
+  color: black;
+}
+
+
+
+.fa-rss {
+  background: #ffd696;
+  color: black;
+}
+
+.fa-linkedin {
+  background: #92f7fc;
+  color: black;
+}
+
+#hbz-searchbox {
+        min-width: 100%;
+        margin: 10px auto;
+        border-radius: 3px;
+        overflow: hidden;
+        max-width: 100%;
+    }
+   
+    #hbz-input {
+        width: 59.2%;
+        padding: 10.5px 4%;
+        font: bold 15px "lucida sans", "trebuchet MS", "Tahoma";
+        border: none;
+        background-color: #FFF;
+        box-shadow: 0 0 2px #333333 inset;
+    }
+   
+    #hbz-input:focus {
+        outline: none;
+        background-color: #FFF;
+        box-shadow: 0 0 2px #333333 inset;
+    }
+   
+    #hbz-submit {
+        overflow: visible;
+        position: relative;
+        float: right;
+        border: none;
+        padding: 0;
+        cursor: pointer;
+        height: 38.9px;
+        width: 32.8%;
+        font: bold 15px/40px "lucida sans", "trebuchet MS", "Tahoma";
+        color: #FFF;
+        text-transform: uppercase;
+        background-color: #D83C3C;
+    }
+   
+    #hbz-submit::before {
+        content: "";
+        position: absolute;
+        border-width: 8px;
+        border-style: solid solid solid none;
+        border-color: transparent #D83C3C;
+        top: 12px;
+        left: -6px;
+    }
+   
+    #hbz-submit:focus,
+    #hbz-submit:active {
+        background-color: #C42F2F;
+        outline: none;
+    }
+
+    #hbz-submit:focus::before,
+    #hbz-submit:active::before {
+        border-color: transparent #C42F2F;
+    }
+
+    #hbz-submit:hover {
+        background-color: #E54040;
+    }
+
+    #hbz-submit:hover::before {
+        border-color: transparent #E54040;
+}
+
+.hbzsub {
+    background-color: rgb(87, 98, 105);
+    width: 100%;
+    height: 100%;
+    padding-top: 6px;
+    padding-bottom:8px;
+    margin-left:0.1%;
+    
+}
+
+.hbzform-inner {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font: bold 17px "trebuchet MS","Tahoma";
+}
+
+.hbzemailform {
+    padding-top:10px;
+    width: 240px;
+    margin: 10px auto;
+}
+
+#hbzemailbox {
+    background-color: #dbdbdb;
+    color: #000000;
+    width: 208px;
+    border: 1px solid #697780;
+    padding: 15px;
+    text-align: center;
+    height: 18px;
+    box-sizing: content-box;
+}
+
+#hbzemailbutton {
+    background-color: rgb(243, 93, 92);
+    border: 1px solid rgb(215, 84, 83);
+    color: rgb(255, 255, 255);
+    width: 240px;
+    font: bold 16px "trebuchet MS","Tahoma";
+    padding: 15px;
+    text-align: center;
+    height: 50px;
+    margin: 10px auto;
+    cursor: pointer;
+}
+
+#hbzemailbutton:hover {
+    background-color: #ef1a1a;
+    border: 1px solid #BF4A49;
+}
+
+.hbzsignup-form {
+    margin-top: 15px;
+}
+
+.post-comment-link { visibility: hidden; }
