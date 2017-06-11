@@ -7,156 +7,156 @@ URL:      tinachen.org
 ----------------------------------------------- */
 /* Variable definitions
 ====================
-<Variable name="keycolor" description="Main Color" type="color" default="#ffffff" value="#ffffff"/>
+<Variable name="keycolor" description="Main Color" type="color" default="#ffffff"/>
 <Group description="Page" selector="body">
 <Variable name="body.font" description="Font" type="font"
-default="normal normal 13px Arial, Tahoma, Helvetica, FreeSans, sans-serif" value="normal normal 16px Open Sans"/>
-<Variable name="body.background.color" description="Background Color" type="color" default="#000000" value="#ffffff"/>
-<Variable name="body.text.color" description="Text Color" type="color" default="#ffffff" value="#444444"/>
+default="normal normal 13px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
+<Variable name="body.background.color" description="Background Color" type="color" default="#000000"/>
+<Variable name="body.text.color" description="Text Color" type="color" default="#ffffff"/>
 </Group>
 <Group description="Links" selector=".main-inner">
-<Variable name="link.color" description="Link Color" type="color" default="#888888" value="#cc0000"/>
-<Variable name="link.visited.color" description="Visited Color" type="color" default="#444444" value="#073763"/>
-<Variable name="link.hover.color" description="Hover Color" type="color" default="#cccccc" value="#cc0000"/>
+<Variable name="link.color" description="Link Color" type="color" default="#888888"/>
+<Variable name="link.visited.color" description="Visited Color" type="color" default="#444444"/>
+<Variable name="link.hover.color" description="Hover Color" type="color" default="#cccccc"/>
 </Group>
 <Group description="Blog Title" selector=".header h1">
 <Variable name="header.font" description="Title Font" type="font"
-default="normal bold 40px Arial, Tahoma, Helvetica, FreeSans, sans-serif" value="normal bold 70px IM Fell Double Pica SC"/>
-<Variable name="header.text.color" description="Title Color" type="color" default="$(body.text.color)"  value="#0b5394"/>
-<Variable name="header.background.color" description="Header Background" type="color" default="transparent"  value="#ffffff"/>
+default="normal bold 40px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
+<Variable name="header.text.color" description="Title Color" type="color" default="#444444" />
+<Variable name="header.background.color" description="Header Background" type="color" default="transparent" />
 </Group>
 <Group description="Blog Description" selector=".header .description">
 <Variable name="description.font" description="Font" type="font"
-default="normal normal 14px Arial, Tahoma, Helvetica, FreeSans, sans-serif" value="normal normal 14px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
+default="normal normal 14px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
 <Variable name="description.text.color" description="Text Color" type="color"
-default="$(body.text.color)"  value="#ffffff"/>
+default="#444444" />
 </Group>
 <Group description="Tabs Text" selector=".tabs-inner .widget li a">
 <Variable name="tabs.font" description="Font" type="font"
-default="normal bold 14px Arial, Tahoma, Helvetica, FreeSans, sans-serif" value="normal bold 18px &#39;Trebuchet MS&#39;, Trebuchet, sans-serif"/>
-<Variable name="tabs.text.color" description="Text Color" type="color" default="$(body.text.color)" value="#444444"/>
-<Variable name="tabs.selected.text.color" description="Selected Color" type="color" default="$(tabs.text.color)" value="#444444"/>
+default="normal bold 14px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
+<Variable name="tabs.text.color" description="Text Color" type="color" default="#444444"/>
+<Variable name="tabs.selected.text.color" description="Selected Color" type="color" default="#444444"/>
 </Group>
 <Group description="Tabs Background" selector=".tabs-outer .PageList">
-<Variable name="tabs.background.color" description="Background Color" type="color" default="#141414" value="#ffffff"/>
-<Variable name="tabs.selected.background.color" description="Selected Color" type="color" default="#444444" value="rgba(0, 0, 0, 0)"/>
-<Variable name="tabs.border.color" description="Border Color" type="color" default="$(widget.border.color)" value="rgba(0, 0, 0, 0)"/>
+<Variable name="tabs.background.color" description="Background Color" type="color" default="#141414"/>
+<Variable name="tabs.selected.background.color" description="Selected Color" type="color" default="#444444"/>
+<Variable name="tabs.border.color" description="Border Color" type="color" default="rgba(0, 0, 0, 0)"/>
 </Group>
 <Group description="Date Header" selector=".main-inner .widget h2.date-header, .main-inner .widget h2.date-header span">
 <Variable name="date.font" description="Font" type="font"
-default="normal normal 14px Arial, Tahoma, Helvetica, FreeSans, sans-serif" value="normal normal 16px Ubuntu"/>
-<Variable name="date.text.color" description="Text Color" type="color" default="#666666" value="#444444"/>
-<Variable name="date.border.color" description="Border Color" type="color" default="$(widget.border.color)" value="#000000"/>
+default="normal normal 14px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
+<Variable name="date.text.color" description="Text Color" type="color" default="#666666"/>
+<Variable name="date.border.color" description="Border Color" type="color" default="rgba(0, 0, 0, 0)"/>
 </Group>
 <Group description="Post Title" selector="h1.post-title, h4, h1.post-title a">
 <Variable name="post.title.font" description="Font" type="font"
-default="normal bold 22px Arial, Tahoma, Helvetica, FreeSans, sans-serif" value="normal bold 36px Ubuntu"/>
-<Variable name="post.title.text.color" description="Text Color" type="color" default="$(body.text.color)" value="#444444"/>
+default="normal bold 22px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
+<Variable name="post.title.text.color" description="Text Color" type="color" default="#444444"/>
 </Group>
 <Group description="Post Background" selector=".post">
-<Variable name="post.background.color" description="Background Color" type="color" default="$(widget.background.color)"  value="rgba(0, 0, 0, 0)"/>
-<Variable name="post.border.color" description="Border Color" type="color" default="$(widget.border.color)"  value="#d4d4d4"/>
-<Variable name="post.border.bevel.color" description="Bevel Color" type="color" default="$(widget.border.color)" value="rgba(0, 0, 0, 0)"/>
+<Variable name="post.background.color" description="Background Color" type="color" default="rgba(0, 0, 0, 0)" />
+<Variable name="post.border.color" description="Border Color" type="color" default="rgba(0, 0, 0, 0)" />
+<Variable name="post.border.bevel.color" description="Bevel Color" type="color" default="rgba(0, 0, 0, 0)"/>
 </Group>
 <Group description="Gadget Title" selector="h2">
 <Variable name="widget.title.font" description="Font" type="font"
-default="normal bold 14px Arial, Tahoma, Helvetica, FreeSans, sans-serif" value="normal bold 28px Ubuntu"/>
-<Variable name="widget.title.text.color" description="Text Color" type="color" default="$(body.text.color)" value="#ff0000"/>
+default="normal bold 14px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
+<Variable name="widget.title.text.color" description="Text Color" type="color" default="#444444"/>
 </Group>
 <Group description="Gadget Text" selector=".sidebar .widget">
 <Variable name="widget.font" description="Font" type="font"
-default="normal normal 14px Arial, Tahoma, Helvetica, FreeSans, sans-serif" value="normal normal 13.3px Open Sans"/>
-<Variable name="widget.text.color" description="Text Color" type="color" default="$(body.text.color)" value="#000000"/>
-<Variable name="widget.alternate.text.color" description="Alternate Color" type="color" default="#666666" value="#000000"/>
+default="normal normal 14px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
+<Variable name="widget.text.color" description="Text Color" type="color" default="#444444"/>
+<Variable name="widget.alternate.text.color" description="Alternate Color" type="color" default="#666666"/>
 </Group>
 <Group description="Gadget Links" selector=".sidebar .widget">
-<Variable name="widget.link.color" description="Link Color" type="color" default="$(link.color)" value="#000000"/>
-<Variable name="widget.link.visited.color" description="Visited Color" type="color" default="$(link.visited.color)" value="#000000"/>
-<Variable name="widget.link.hover.color" description="Hover Color" type="color" default="$(link.hover.color)" value="#38761d"/>
+<Variable name="widget.link.color" description="Link Color" type="color" default="#cc0000"/>
+<Variable name="widget.link.visited.color" description="Visited Color" type="color" default="#073763"/>
+<Variable name="widget.link.hover.color" description="Hover Color" type="color" default="#cc0000"/>
 </Group>
 <Group description="Gadget Background" selector=".sidebar .widget">
-<Variable name="widget.background.color" description="Background Color" type="color" default="#141414" value="rgba(0, 0, 0, 0)"/>
-<Variable name="widget.border.color" description="Border Color" type="color" default="#222222" value="rgba(0, 0, 0, 0)"/>
-<Variable name="widget.border.bevel.color" description="Bevel Color" type="color" default="#000000" value="rgba(0, 0, 0, 0)"/>
+<Variable name="widget.background.color" description="Background Color" type="color" default="#141414"/>
+<Variable name="widget.border.color" description="Border Color" type="color" default="#222222"/>
+<Variable name="widget.border.bevel.color" description="Bevel Color" type="color" default="#000000"/>
 </Group>
 <Group description="Sidebar Background" selector=".column-left-inner .column-right-inner">
-<Variable name="widget.outer.background.color" description="Background Color" type="color" default="transparent"  value="rgba(0, 0, 0, 0)"/>
+<Variable name="widget.outer.background.color" description="Background Color" type="color" default="transparent" />
 </Group>
 <Group description="Images" selector=".main-inner">
-<Variable name="image.background.color" description="Background Color" type="color" default="transparent" value="rgba(0, 0, 0, 0)"/>
-<Variable name="image.border.color" description="Border Color" type="color" default="transparent" value="rgba(0, 0, 0, 0)"/>
+<Variable name="image.background.color" description="Background Color" type="color" default="transparent"/>
+<Variable name="image.border.color" description="Border Color" type="color" default="transparent"/>
 </Group>
 <Group description="Feed" selector=".blog-feeds">
-<Variable name="feed.text.color" description="Text Color" type="color" default="$(body.text.color)" value="#660000"/>
+<Variable name="feed.text.color" description="Text Color" type="color" default="#444444"/>
 </Group>
 <Group description="Feed Links" selector=".blog-feeds">
-<Variable name="feed.link.color" description="Link Color" type="color" default="$(link.color)" value="#888888"/>
-<Variable name="feed.link.visited.color" description="Visited Color" type="color" default="$(link.visited.color)" value="#444444"/>
-<Variable name="feed.link.hover.color" description="Hover Color" type="color" default="$(link.hover.color)" value="#cccccc"/>
+<Variable name="feed.link.color" description="Link Color" type="color" default="#cc0000"/>
+<Variable name="feed.link.visited.color" description="Visited Color" type="color" default="#073763"/>
+<Variable name="feed.link.hover.color" description="Hover Color" type="color" default="#cc0000"/>
 </Group>
 <Group description="Pager" selector=".blog-pager">
-<Variable name="pager.background.color" description="Background Color" type="color" default="$(post.background.color)"  value="#141414"/>
+<Variable name="pager.background.color" description="Background Color" type="color" default="rgba(0, 0, 0, 0)" />
 </Group>
 <Group description="Footer" selector=".footer-outer">
-<Variable name="footer.background.color" description="Background Color" type="color" default="$(widget.background.color)"  value="#444444"/>
-<Variable name="footer.text.color" description="Text Color" type="color" default="$(body.text.color)"  value="#ffffff"/>
+<Variable name="footer.background.color" description="Background Color" type="color" default="rgba(0, 0, 0, 0)" />
+<Variable name="footer.text.color" description="Text Color" type="color" default="#444444" />
 </Group>
-<Variable name="title.shadow.spread" description="Title Shadow" type="length" default="-1px" min="-1px" max="100px" value="-1px"/>
+<Variable name="title.shadow.spread" description="Title Shadow" type="length" default="-1px" min="-1px" max="100px"/>
 <Variable name="body.background" description="Body Background" type="background"
-color="$(body.background.color)"
-default="$(color) none repeat scroll top left" value="$(color) none no-repeat scroll center center"/>
+color="#ffffff"
+default="$(color) none repeat scroll top left"/>
 <Variable name="body.background.gradient.cap" description="Body Gradient Cap" type="url"
-default="none" value="none"/>
-<Variable name="body.background.size" description="Body Background Size" type="string" default="auto" value="auto"/>
+default="none"/>
+<Variable name="body.background.size" description="Body Background Size" type="string" default="auto"/>
 <Variable name="tabs.background.gradient" description="Tabs Background Gradient" type="url"
-default="none" value="none"/>
-<Variable name="header.background.gradient" description="Header Background Gradient" type="url" default="none"  value="none"/>
-<Variable name="header.padding.top" description="Header Top Padding" type="length" default="22px" min="0" max="100px" value="22px"/>
-<Variable name="header.margin.top" description="Header Top Margin" type="length" default="0" min="0" max="100px" value="0"/>
-<Variable name="header.margin.bottom" description="Header Bottom Margin" type="length" default="0" min="0" max="100px" value="0"/>
-<Variable name="widget.padding.top" description="Widget Padding Top" type="length" default="8px" min="0" max="20px" value="8px"/>
-<Variable name="widget.padding.side" description="Widget Padding Side" type="length" default="15px" min="0" max="100px" value="15px"/>
-<Variable name="widget.outer.margin.top" description="Widget Top Margin" type="length" default="0" min="0" max="100px" value="0"/>
-<Variable name="widget.outer.background.gradient" description="Gradient" type="url" default="none"  value="none"/>
-<Variable name="widget.border.radius" description="Gadget Border Radius" type="length" default="0" min="0" max="100px" value="0"/>
-<Variable name="outer.shadow.spread" description="Outer Shadow Size" type="length" default="0" min="0" max="100px" value="0"/>
-<Variable name="date.header.border.radius.top" description="Date Header Border Radius Top" type="length" default="0" min="0" max="100px" value="0"/>
-<Variable name="date.header.position" description="Date Header Position" type="length" default="15px" min="0" max="100px" value="15px"/>
-<Variable name="date.space" description="Date Space" type="length" default="30px" min="0" max="100px" value="30px"/>
-<Variable name="date.position" description="Date Float" type="string" default="static"  value="static"/>
-<Variable name="date.padding.bottom" description="Date Padding Bottom" type="length" default="0" min="0" max="100px" value="0"/>
-<Variable name="date.border.size" description="Date Border Size" type="length" default="0" min="0" max="10px" value="0"/>
+default="none"/>
+<Variable name="header.background.gradient" description="Header Background Gradient" type="url" default="none" />
+<Variable name="header.padding.top" description="Header Top Padding" type="length" default="22px" min="0" max="100px"/>
+<Variable name="header.margin.top" description="Header Top Margin" type="length" default="0" min="0" max="100px"/>
+<Variable name="header.margin.bottom" description="Header Bottom Margin" type="length" default="0" min="0" max="100px"/>
+<Variable name="widget.padding.top" description="Widget Padding Top" type="length" default="8px" min="0" max="20px"/>
+<Variable name="widget.padding.side" description="Widget Padding Side" type="length" default="15px" min="0" max="100px"/>
+<Variable name="widget.outer.margin.top" description="Widget Top Margin" type="length" default="0" min="0" max="100px"/>
+<Variable name="widget.outer.background.gradient" description="Gradient" type="url" default="none" />
+<Variable name="widget.border.radius" description="Gadget Border Radius" type="length" default="0" min="0" max="100px"/>
+<Variable name="outer.shadow.spread" description="Outer Shadow Size" type="length" default="0" min="0" max="100px"/>
+<Variable name="date.header.border.radius.top" description="Date Header Border Radius Top" type="length" default="0" min="0" max="100px"/>
+<Variable name="date.header.position" description="Date Header Position" type="length" default="15px" min="0" max="100px"/>
+<Variable name="date.space" description="Date Space" type="length" default="30px" min="0" max="100px"/>
+<Variable name="date.position" description="Date Float" type="string" default="static" />
+<Variable name="date.padding.bottom" description="Date Padding Bottom" type="length" default="0" min="0" max="100px"/>
+<Variable name="date.border.size" description="Date Border Size" type="length" default="0" min="0" max="10px"/>
 <Variable name="date.background" description="Date Background" type="background" color="transparent"
-default="$(color) none no-repeat scroll top left"  value="$(color) none no-repeat scroll top left"/>
-<Variable name="date.first.border.radius.top" description="Date First top radius" type="length" default="$(widget.border.radius)" min="0" max="100px" value="0"/>
+default="$(color) none no-repeat scroll top left" />
+<Variable name="date.first.border.radius.top" description="Date First top radius" type="length" default="0" min="0" max="100px"/>
 <Variable name="date.last.space.bottom" description="Date Last Space Bottom" type="length"
-default="20px" min="0" max="100px" value="20px"/>
-<Variable name="date.last.border.radius.bottom" description="Date Last bottom radius" type="length" default="$(widget.border.radius)" min="0" max="100px" value="0"/>
-<Variable name="post.first.padding.top" description="First Post Padding Top" type="length" default="0" min="0" max="100px" value="0"/>
-<Variable name="image.shadow.spread" description="Image Shadow Size" type="length" default="0" min="0" max="100px" value="0"/>
-<Variable name="image.border.radius" description="Image Border Radius" type="length" default="0" min="0" max="100px" value="0"/>
-<Variable name="separator.outdent" description="Separator Outdent" type="length" default="15px" min="0" max="100px" value="15px"/>
-<Variable name="title.separator.border.size" description="Widget Title Border Size" type="length" default="1px" min="0" max="10px" value="1px"/>
-<Variable name="list.separator.border.size" description="List Separator Border Size" type="length" default="1px" min="0" max="10px" value="1px"/>
-<Variable name="shadow.spread" description="Shadow Size" type="length" default="0" min="0" max="100px" value="0"/>
+default="20px" min="0" max="100px"/>
+<Variable name="date.last.border.radius.bottom" description="Date Last bottom radius" type="length" default="0" min="0" max="100px"/>
+<Variable name="post.first.padding.top" description="First Post Padding Top" type="length" default="0" min="0" max="100px"/>
+<Variable name="image.shadow.spread" description="Image Shadow Size" type="length" default="0" min="0" max="100px"/>
+<Variable name="image.border.radius" description="Image Border Radius" type="length" default="0" min="0" max="100px"/>
+<Variable name="separator.outdent" description="Separator Outdent" type="length" default="15px" min="0" max="100px"/>
+<Variable name="title.separator.border.size" description="Widget Title Border Size" type="length" default="1px" min="0" max="10px"/>
+<Variable name="list.separator.border.size" description="List Separator Border Size" type="length" default="1px" min="0" max="10px"/>
+<Variable name="shadow.spread" description="Shadow Size" type="length" default="0" min="0" max="100px"/>
 <Variable name="startSide" description="Side where text starts in blog language" type="automatic" default="left"/>
 <Variable name="endSide" description="Side where text ends in blog language" type="automatic" default="right"/>
-<Variable name="date.side" description="Side where date header is placed" type="string" default="$(endSide)" value="right"/>
-<Variable name="pager.border.radius.top" description="Pager Border Top Radius" type="length" default="$(widget.border.radius)" min="0" max="100px" value="0"/>
-<Variable name="pager.space.top" description="Pager Top Space" type="length" default="1em" min="0" max="20em" value="1em"/>
-<Variable name="footer.background.gradient" description="Background Gradient" type="url" default="none"  value="none"/>
+<Variable name="date.side" description="Side where date header is placed" type="string" default="right"/>
+<Variable name="pager.border.radius.top" description="Pager Border Top Radius" type="length" default="0" min="0" max="100px"/>
+<Variable name="pager.space.top" description="Pager Top Space" type="length" default="1em" min="0" max="20em"/>
+<Variable name="footer.background.gradient" description="Background Gradient" type="url" default="none" />
 <Variable name="mobile.background.size" description="Mobile Background Size" type="string"
-default="$(body.background.size)" value="auto"/>
+default="auto"/>
 <Variable name="mobile.background.overlay" description="Mobile Background Overlay" type="string"
-default="transparent none repeat scroll top left" value="transparent none repeat scroll top left"/>
-<Variable name="mobile.button.color" description="Mobile Button Color" type="color" default="#ffffff"  value="#ffffff"/>
+default="transparent none repeat scroll top left"/>
+<Variable name="mobile.button.color" description="Mobile Button Color" type="color" default="#ffffff" />
 */
 /* Content
 ----------------------------------------------- */
 body {
-font: $(body.font);
-color: $(body.text.color);
-background: $(body.background);
+font: normal normal 16px Open Sans;
+color: #444444;
+background: #ffffff none no-repeat scroll center center;
 }
 html body .content-outer {
 min-width: 0;
@@ -165,22 +165,22 @@ width: 100%;
 }
 a:link {
 text-decoration: none;
-color: $(link.color);
+color: #cc0000;
 }
 a:visited {
 text-decoration: none;
-color: $(link.visited.color);
+color: #073763;
 }
 a:hover {
 text-decoration: underline;
-color: $(link.hover.color);
+color: #cc0000;
 }
 .body-fauxcolumn-outer .cap-top {
 position: absolute;
 z-index: 1;
 height: 276px;
 width: 100%;
-background: transparent $(body.background.gradient.cap) repeat-x scroll top left;
+background: transparent none repeat-x scroll top left;
 _background-image: none;
 }
 /* Columns
@@ -195,7 +195,7 @@ margin: 0 16px;
 margin: 0 16px;
 }
 .main-inner {
-padding-top: $(date.space);
+padding-top: 30px;
 }
 .main-inner .column-center-inner,
 .main-inner .column-left-inner,
@@ -203,7 +203,7 @@ padding-top: $(date.space);
 padding: 0 5px;
 }
 *+html body .main-inner .column-center-inner {
-margin-top: -$(date.space);
+margin-top: -30px;
 }
 #layout .main-inner .column-center-inner {
 margin-top: 0;
@@ -211,22 +211,22 @@ margin-top: 0;
 /* Header
 ----------------------------------------------- */
 .header-outer {
-margin: $(header.margin.top) 0 $(header.margin.bottom) 0;
-background: $(header.background.color) $(header.background.gradient) repeat scroll 0 0;
+margin: 0 0 0 0;
+background: #ffffff none repeat scroll 0 0;
 }
 .Header h1 {
-font: $(header.font);
-color: $(header.text.color);
-text-shadow: 0 0 $(title.shadow.spread) #000000;
-padding-top: 15px; $(header.padding.top);
+font: normal bold 70px IM Fell Double Pica SC;
+color: #0b5394;
+text-shadow: 0 0 -1px #000000;
+padding-top: 15px; 22px;
 padding-bottom: 8px;
 }
 .Header h1 a {
-color: $(header.text.color);
+color: #0b5394;
 }
 .Header .description {
-font: $(description.font);
-color: $(description.text.color);
+font: normal normal 14px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+color: #ffffff;
 }
 .header-inner .Header .titlewrapper,
 .header-inner .Header .descriptionwrapper {
@@ -235,14 +235,14 @@ padding-right: 0;
 margin-bottom: 0;
 }
 .header-inner .Header .titlewrapper {
-padding-top: $(header.padding.top);
+padding-top: 22px;
 }
 /* Tabs
 ----------------------------------------------- */
 .tabs-outer {
 overflow: hidden;
 position: relative;
-background: $(tabs.background.color) $(tabs.background.gradient) repeat scroll 0 0;
+background: #ffffff none repeat scroll 0 0;
 }
 #layout .tabs-outer {
 overflow: visible;
@@ -250,7 +250,7 @@ overflow: visible;
 .tabs-cap-top, .tabs-cap-bottom {
 position: absolute;
 width: 100%;
-border-top: 1px solid $(tabs.border.color);
+border-top: 1px solid rgba(0, 0, 0, 0);
 }
 .tabs-cap-bottom {
 bottom: 0;
@@ -259,26 +259,26 @@ bottom: 0;
 display: inline-block;
 margin: 0;
 padding: .6em 1.5em;
-font: $(tabs.font);
-color: $(tabs.text.color);
-border-top: 1px solid $(tabs.border.color);
-border-bottom: 1px solid $(tabs.border.color);
-border-$startSide: 1px solid $(tabs.border.color);
+font: normal bold 18px 'Trebuchet MS', Trebuchet, sans-serif;
+color: #444444;
+border-top: 1px solid rgba(0, 0, 0, 0);
+border-bottom: 1px solid rgba(0, 0, 0, 0);
+border-left: 1px solid rgba(0, 0, 0, 0);
 height: 16px;
 line-height: 16px;
 }
 .tabs-inner .widget li:last-child a {
-border-$endSide: 1px solid $(tabs.border.color);
+border-right: 1px solid rgba(0, 0, 0, 0);
 }
 .tabs-inner .widget li.selected a, .tabs-inner .widget li a:hover {
-background: $(tabs.selected.background.color) $(tabs.background.gradient) repeat-x scroll 0 -100px;
-color: $(tabs.selected.text.color);
+background: rgba(0, 0, 0, 0) none repeat-x scroll 0 -100px;
+color: #444444;
 }
 /* Headings
 ----------------------------------------------- */
 h2 {
-font: $(widget.title.font);
-color: $(widget.title.text.color);
+font: normal bold 28px Ubuntu;
+color: #ff0000;
 }
 /* Widgets
 ----------------------------------------------- */
@@ -291,7 +291,7 @@ padding: 0;
 }
 .main-inner .column-left-outer,
 .main-inner .column-right-outer {
-margin-top: $(widget.outer.margin.top);
+margin-top: 0;
 }
 #layout .main-inner .column-left-outer,
 #layout .main-inner .column-right-outer {
@@ -299,83 +299,83 @@ margin-top: 0;
 }
 .main-inner .column-left-inner,
 .main-inner .column-right-inner {
-background: $(widget.outer.background.color) $(widget.outer.background.gradient) repeat 0 0;
--moz-box-shadow: 0 0 $(outer.shadow.spread) rgba(0, 0, 0, .2);
--webkit-box-shadow: 0 0 $(outer.shadow.spread) rgba(0, 0, 0, .2);
--goog-ms-box-shadow: 0 0 $(outer.shadow.spread) rgba(0, 0, 0, .2);
-box-shadow: 0 0 $(outer.shadow.spread) rgba(0, 0, 0, .2);
--moz-border-radius: $(widget.border.radius);
--webkit-border-radius: $(widget.border.radius);
--goog-ms-border-radius: $(widget.border.radius);
-border-radius: $(widget.border.radius);
+background: rgba(0, 0, 0, 0) none repeat 0 0;
+-moz-box-shadow: 0 0 0 rgba(0, 0, 0, .2);
+-webkit-box-shadow: 0 0 0 rgba(0, 0, 0, .2);
+-goog-ms-box-shadow: 0 0 0 rgba(0, 0, 0, .2);
+box-shadow: 0 0 0 rgba(0, 0, 0, .2);
+-moz-border-radius: 0;
+-webkit-border-radius: 0;
+-goog-ms-border-radius: 0;
+border-radius: 0;
 }
 #layout .main-inner .column-left-inner,
 #layout .main-inner .column-right-inner {
 margin-top: 0;
 }
 .sidebar .widget {
-font: $(widget.font);
-color: $(widget.text.color);
+font: normal normal 13.3px Open Sans;
+color: #000000;
 }
 .sidebar .widget a:link {
-color: $(widget.link.color);
+color: #000000;
 }
 .sidebar .widget a:visited {
-color: $(widget.link.visited.color);
+color: #000000;
 }
 .sidebar .widget a:hover {
-color: $(widget.link.hover.color); 
-} 
+color: #38761d;
+}
 #HTML3{
 }
 .sidebar .widget h2 {
-text-shadow: 0 0 $(title.shadow.spread) #000000;
+text-shadow: 0 0 -1px #000000;
 }
 .main-inner .widget {
-background-color: $(widget.background.color);
-border: 1px solid $(widget.border.color);
-padding: 0 $(widget.padding.side) 15px;
+background-color: rgba(0, 0, 0, 0);
+border: 1px solid rgba(0, 0, 0, 0);
+padding: 0 15px 15px;
 margin: 20px -16px;
--moz-box-shadow: 0 0 $(shadow.spread) rgba(0, 0, 0, .2);
--webkit-box-shadow: 0 0 $(shadow.spread) rgba(0, 0, 0, .2);
--goog-ms-box-shadow: 0 0 $(shadow.spread) rgba(0, 0, 0, .2);
-box-shadow: 0 0 $(shadow.spread) rgba(0, 0, 0, .2);
--moz-border-radius: $(widget.border.radius);
--webkit-border-radius: $(widget.border.radius);
--goog-ms-border-radius: $(widget.border.radius);
-border-radius: $(widget.border.radius);
+-moz-box-shadow: 0 0 0 rgba(0, 0, 0, .2);
+-webkit-box-shadow: 0 0 0 rgba(0, 0, 0, .2);
+-goog-ms-box-shadow: 0 0 0 rgba(0, 0, 0, .2);
+box-shadow: 0 0 0 rgba(0, 0, 0, .2);
+-moz-border-radius: 0;
+-webkit-border-radius: 0;
+-goog-ms-border-radius: 0;
+border-radius: 0;
 }
 .main-inner .widget h2 {
-margin: 0 -$(separator.outdent);
-padding: .6em $(separator.outdent) .5em;
-border-bottom: 1px solid $(widget.border.bevel.color);
+margin: 0 -15px;
+padding: .6em 15px .5em;
+border-bottom: 1px solid rgba(0, 0, 0, 0);
 }
 .footer-inner .widget h2 {
 padding: 0 0 .4em;
-border-bottom: 1px solid $(widget.border.bevel.color);
+border-bottom: 1px solid rgba(0, 0, 0, 0);
 }
 .main-inner .widget h2 + div, .footer-inner .widget h2 + div {
-border-top: $(title.separator.border.size) solid $(widget.border.color);
-padding-top: $(widget.padding.top);
+border-top: 1px solid rgba(0, 0, 0, 0);
+padding-top: 8px;
 }
 .main-inner .widget .widget-content {
-margin: 0 -$(separator.outdent);
-padding: 7px $(separator.outdent) 0;
+margin: 0 -15px;
+padding: 7px 15px 0;
 }
 .main-inner .widget ul, .main-inner .widget #ArchiveList ul.flat {
-margin: -$(widget.padding.top) -15px 0;
+margin: -8px -15px 0;
 padding: 0;
 list-style: none;
 }
 .main-inner .widget #ArchiveList {
-margin: -$(widget.padding.top) 0 0;
+margin: -8px 0 0;
 }
 .main-inner .widget ul li, .main-inner .widget #ArchiveList ul.flat li {
 padding: .5em 15px;
 text-indent: 0;
-color: $(widget.alternate.text.color);
-border-top: $(list.separator.border.size) solid $(widget.border.color);
-border-bottom: 1px solid $(widget.border.bevel.color);
+color: #000000;
+border-top: 1px solid rgba(0, 0, 0, 0);
+border-bottom: 1px solid rgba(0, 0, 0, 0);
 }
 .main-inner .widget #ArchiveList ul li {
 padding-top: .25em;
@@ -398,7 +398,7 @@ list-style: disc;
 .main-inner .widget .post-body ul li {
 padding: 0.25em 0;
 margin-bottom: .25em;
-color: $(body.text.color);
+color: #444444;
 border: none;
 }
 .footer-inner .widget ul {
@@ -406,7 +406,7 @@ padding: 0;
 list-style: none;
 }
 .widget .zippy {
-color: $(widget.alternate.text.color);
+color: #000000;
 }
 /* Posts
 ----------------------------------------------- */
@@ -426,77 +426,77 @@ margin-bottom: 1em;
 }
 .main-inner .widget h2.date-header {
 margin: 0 -15px 1px;
-padding: 0 0 $(date.padding.bottom) 0;
-font: $(date.font);
-color: $(date.text.color);
-background: $(date.background);
-border-top: $(date.border.size) solid $(date.border.color);
-border-bottom: 1px solid $(widget.border.bevel.color);
--moz-border-radius-topleft: $(date.header.border.radius.top);
--moz-border-radius-topright: $(date.header.border.radius.top);
--webkit-border-top-left-radius: $(date.header.border.radius.top);
--webkit-border-top-right-radius: $(date.header.border.radius.top);
-border-top-left-radius: $(date.header.border.radius.top);
-border-top-right-radius: $(date.header.border.radius.top);
-position: $(date.position);
+padding: 0 0 0 0;
+font: normal normal 16px Ubuntu;
+color: #444444;
+background: transparent none no-repeat scroll top left;
+border-top: 0 solid #000000;
+border-bottom: 1px solid rgba(0, 0, 0, 0);
+-moz-border-radius-topleft: 0;
+-moz-border-radius-topright: 0;
+-webkit-border-top-left-radius: 0;
+-webkit-border-top-right-radius: 0;
+border-top-left-radius: 0;
+border-top-right-radius: 0;
+position: static;
 bottom: 100%;
-$(date.side): $(date.header.position);
-text-shadow: 0 0 $(title.shadow.spread) #000000;
+right: 15px;
+text-shadow: 0 0 -1px #000000;
 }
 .main-inner .widget h2.date-header span {
-font: $(date.font);
+font: normal normal 16px Ubuntu;
 display: block;
 padding: .5em 15px;
-border-left: $(date.border.size) solid $(date.border.color);
-border-right: $(date.border.size) solid $(date.border.color);
+border-left: 0 solid #000000;
+border-right: 0 solid #000000;
 }
 .date-outer {
 position: relative;
-margin: $(date.space) 0 20px;
+margin: 30px 0 20px;
 padding: 0 15px;
-background-color: $(post.background.color);
-border: 1px solid $(post.border.color);
--moz-box-shadow: 0 0 $(shadow.spread) rgba(0, 0, 0, .2);
--webkit-box-shadow: 0 0 $(shadow.spread) rgba(0, 0, 0, .2);
--goog-ms-box-shadow: 0 0 $(shadow.spread) rgba(0, 0, 0, .2);
-box-shadow: 0 0 $(shadow.spread) rgba(0, 0, 0, .2);
--moz-border-radius: $(widget.border.radius);
--webkit-border-radius: $(widget.border.radius);
--goog-ms-border-radius: $(widget.border.radius);
-border-radius: $(widget.border.radius);
+background-color: rgba(0, 0, 0, 0);
+border: 1px solid #d4d4d4;
+-moz-box-shadow: 0 0 0 rgba(0, 0, 0, .2);
+-webkit-box-shadow: 0 0 0 rgba(0, 0, 0, .2);
+-goog-ms-box-shadow: 0 0 0 rgba(0, 0, 0, .2);
+box-shadow: 0 0 0 rgba(0, 0, 0, .2);
+-moz-border-radius: 0;
+-webkit-border-radius: 0;
+-goog-ms-border-radius: 0;
+border-radius: 0;
 }
 .date-outer:first-child {
 margin-top: 0;
 }
 .date-outer:last-child {
-margin-bottom: $(date.last.space.bottom);
--moz-border-radius-bottomleft: $(date.last.border.radius.bottom);
--moz-border-radius-bottomright: $(date.last.border.radius.bottom);
--webkit-border-bottom-left-radius: $(date.last.border.radius.bottom);
--webkit-border-bottom-right-radius: $(date.last.border.radius.bottom);
--goog-ms-border-bottom-left-radius: $(date.last.border.radius.bottom);
--goog-ms-border-bottom-right-radius: $(date.last.border.radius.bottom);
-border-bottom-left-radius: $(date.last.border.radius.bottom);
-border-bottom-right-radius: $(date.last.border.radius.bottom);
+margin-bottom: 20px;
+-moz-border-radius-bottomleft: 0;
+-moz-border-radius-bottomright: 0;
+-webkit-border-bottom-left-radius: 0;
+-webkit-border-bottom-right-radius: 0;
+-goog-ms-border-bottom-left-radius: 0;
+-goog-ms-border-bottom-right-radius: 0;
+border-bottom-left-radius: 0;
+border-bottom-right-radius: 0;
 }
 .date-posts {
-margin: 0 -$(separator.outdent);
-padding: 0 $(separator.outdent);
+margin: 0 -15px;
+padding: 0 15px;
 clear: both;
 }
 #HTML2{
 background: #ffffff;
-} 
+}
 .post-outer, .inline-ad {
-border-top: 1px solid $(post.border.bevel.color);
-margin: 0 -$(separator.outdent);
-padding: 15px $(separator.outdent);
+border-top: 1px solid rgba(0, 0, 0, 0);
+margin: 0 -15px;
+padding: 15px 15px;
 }
 .post-outer {
 padding-bottom: 10px;
 }
 .post-outer:first-child {
-padding-top: $(post.first.padding.top);
+padding-top: 0;
 border-top: none;
 }
 .post-outer:last-child, .inline-ad:last-child {
@@ -507,19 +507,19 @@ position: relative;
 }
 .post-body img {
 padding: 8px;
-background: $(image.background.color);
-border: 1px solid $(image.border.color);
--moz-box-shadow: 0 0 $(image.shadow.spread) rgba(0, 0, 0, .2);
--webkit-box-shadow: 0 0 $(image.shadow.spread) rgba(0, 0, 0, .2);
-box-shadow: 0 0 $(image.shadow.spread) rgba(0, 0, 0, .2);
--moz-border-radius: $(image.border.radius);
--webkit-border-radius: $(image.border.radius);
-border-radius: $(image.border.radius);
+background: rgba(0, 0, 0, 0);
+border: 1px solid rgba(0, 0, 0, 0);
+-moz-box-shadow: 0 0 0 rgba(0, 0, 0, .2);
+-webkit-box-shadow: 0 0 0 rgba(0, 0, 0, .2);
+box-shadow: 0 0 0 rgba(0, 0, 0, .2);
+-moz-border-radius: 0;
+-webkit-border-radius: 0;
+border-radius: 0;
 }
 h1.post-title, h1 {
-font: $(post.title.font);
-color: $(post.title.text.color);
-text-align:justify;    
+font: normal bold 36px Ubuntu;
+color: #444444;
+text-align:justify;
 }
 .mobile h1.post-title {
 width:100% !important;
@@ -530,13 +530,13 @@ font-weight: semi-bold;
 color: #444444;
 }
 h1.post-title a {
-font: $(post.title.font);
-color: $(post.title.text.color);
+font: normal bold 36px Ubuntu;
+color: #444444;
 width:100%;
 text-align:justify;
 }
 h1.post-title a:hover {
-color: $(link.hover.color);
+color: #cc0000;
 text-decoration: none;
 text-align:justify;
 }
@@ -550,7 +550,7 @@ width:100% !important;
 line-height: 1.4;
 }
 .post-outer h2 {
-color: $(body.text.color);
+color: #444444;
 }
 .post-footer {
 margin: 1.5em 0 0;
@@ -558,39 +558,39 @@ margin: 1.5em 0 0;
 #blog-pager {
 padding: 15px;
 font-size: 120%;
-background-color: $(pager.background.color);
-border: 1px solid $(widget.border.color);
--moz-box-shadow: 0 0 $(shadow.spread) rgba(0, 0, 0, .2);
--webkit-box-shadow: 0 0 $(shadow.spread) rgba(0, 0, 0, .2);
--goog-ms-box-shadow: 0 0 $(shadow.spread) rgba(0, 0, 0, .2);
-box-shadow: 0 0 $(shadow.spread) rgba(0, 0, 0, .2);
--moz-border-radius: $(widget.border.radius);
--webkit-border-radius: $(widget.border.radius);
--goog-ms-border-radius: $(widget.border.radius);
-border-radius: $(widget.border.radius);
--moz-border-radius-topleft: $(pager.border.radius.top);
--moz-border-radius-topright: $(pager.border.radius.top);
--webkit-border-top-left-radius: $(pager.border.radius.top);
--webkit-border-top-right-radius: $(pager.border.radius.top);
--goog-ms-border-top-left-radius: $(pager.border.radius.top);
--goog-ms-border-top-right-radius: $(pager.border.radius.top);
-border-top-left-radius: $(pager.border.radius.top);
-border-top-right-radius-topright: $(pager.border.radius.top);
-margin-top: $(pager.space.top);
+background-color: #141414;
+border: 1px solid rgba(0, 0, 0, 0);
+-moz-box-shadow: 0 0 0 rgba(0, 0, 0, .2);
+-webkit-box-shadow: 0 0 0 rgba(0, 0, 0, .2);
+-goog-ms-box-shadow: 0 0 0 rgba(0, 0, 0, .2);
+box-shadow: 0 0 0 rgba(0, 0, 0, .2);
+-moz-border-radius: 0;
+-webkit-border-radius: 0;
+-goog-ms-border-radius: 0;
+border-radius: 0;
+-moz-border-radius-topleft: 0;
+-moz-border-radius-topright: 0;
+-webkit-border-top-left-radius: 0;
+-webkit-border-top-right-radius: 0;
+-goog-ms-border-top-left-radius: 0;
+-goog-ms-border-top-right-radius: 0;
+border-top-left-radius: 0;
+border-top-right-radius-topright: 0;
+margin-top: 1em;
 }
 .blog-feeds, .post-feeds {
 margin: 1em 0;
 text-align: center;
-color: $(feed.text.color);
+color: #660000;
 }
 .blog-feeds a, .post-feeds a {
-color: $(feed.link.color);
+color: #888888;
 }
 .blog-feeds a:visited, .post-feeds a:visited {
-color: $(feed.link.visited.color);
+color: #444444;
 }
 .blog-feeds a:hover, .post-feeds a:hover {
-color: $(feed.link.hover.color);
+color: #cccccc;
 }
 .post-outer .comments {
 margin-top: 2em;
@@ -602,36 +602,36 @@ background-repeat: no-repeat;
 background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEgAACxIB0t1+/AAAAAd0SU1FB9sLFwMeCjjhcOMAAAD+SURBVDjLtZSvTgNBEIe/WRRnm3U8RC1neQdsm1zSBIU9VVF1FkUguQQsD9ITmD7ECZIJSE4OZo9stoVjC/zc7ky+zH9hXwVwDpTAWWLrgS3QAe8AZgaAJI5zYAmc8r0G4AHYHQKVwII8PZrZFsBFkeRCABYiMh9BRUhnSkPTNCtVXYXURi1FpBDgArj8QU1eVXUzfnjv7yP7kwu1mYrkWlU33vs1QNu2qU8pwN0UpKoqokjWwCztrMuBhEhmh8bD5UDqur75asbcX0BGUB9/HAMB+r32hznJgXy2v0sGLBcyAJ1EK3LFcbo1s91JeLwAbwGYu7TP/3ZGfnXYPgAVNngtqatUNgAAAABJRU5ErkJggg==);
 }
 .comments .comments-content .loadmore a {
-border-top: 1px solid $(tabs.border.color);
-border-bottom: 1px solid $(tabs.border.color);
+border-top: 1px solid rgba(0, 0, 0, 0);
+border-bottom: 1px solid rgba(0, 0, 0, 0);
 }
 .comments .continue {
-border-top: 2px solid $(tabs.border.color);
+border-top: 2px solid rgba(0, 0, 0, 0);
 }
 /* Footer
 ----------------------------------------------- */
 .footer-outer {
-margin: -$(shadow.spread) 0 -1px;
-padding: $(shadow.spread) 0 0;
-color: $(footer.text.color);
+margin: -0 0 -1px;
+padding: 0 0 0;
+color: #ffffff;
 overflow: hidden;
 }
 .footer-fauxborder-left {
-border-top: 1px solid $(widget.border.color);
-background: $(footer.background.color) $(footer.background.gradient) repeat scroll 0 0;
--moz-box-shadow: 0 0 $(shadow.spread) rgba(0, 0, 0, .2);
--webkit-box-shadow: 0 0 $(shadow.spread) rgba(0, 0, 0, .2);
--goog-ms-box-shadow: 0 0 $(shadow.spread) rgba(0, 0, 0, .2);
-box-shadow: 0 0 $(shadow.spread) rgba(0, 0, 0, .2);
-margin: 0 -$(shadow.spread);
+border-top: 1px solid rgba(0, 0, 0, 0);
+background: #444444 none repeat scroll 0 0;
+-moz-box-shadow: 0 0 0 rgba(0, 0, 0, .2);
+-webkit-box-shadow: 0 0 0 rgba(0, 0, 0, .2);
+-goog-ms-box-shadow: 0 0 0 rgba(0, 0, 0, .2);
+box-shadow: 0 0 0 rgba(0, 0, 0, .2);
+margin: 0 -0;
 }
 /* Mobile
 ----------------------------------------------- */
 body.mobile {
-background-size: $(mobile.background.size);
+background-size: auto;
 }
 .mobile .body-fauxcolumn-outer {
-background: $(mobile.background.overlay);
+background: transparent none repeat scroll top left;
 }
 *+html body.mobile .main-inner .column-center-inner {
 margin-top: 0;
@@ -657,25 +657,25 @@ padding: 7px 0 0;
 margin: 0 -15px 0;
 }
 .mobile .main-inner .widget h2.date-header {
-$(date.side): 0;
+right: 0;
 }
 .mobile .date-header span {
 padding: 0.4em 0;
 }
 .mobile .date-outer:first-child {
 margin-bottom: 0;
-border: 1px solid $(post.border.color);
--moz-border-radius-topleft: $(date.first.border.radius.top);
--moz-border-radius-topright: $(date.first.border.radius.top);
--webkit-border-top-left-radius: $(date.first.border.radius.top);
--webkit-border-top-right-radius: $(date.first.border.radius.top);
--goog-ms-border-top-left-radius: $(date.first.border.radius.top);
--goog-ms-border-top-right-radius: $(date.first.border.radius.top);
-border-top-left-radius: $(date.first.border.radius.top);
-border-top-right-radius: $(date.first.border.radius.top);
+border: 1px solid #d4d4d4;
+-moz-border-radius-topleft: 0;
+-moz-border-radius-topright: 0;
+-webkit-border-top-left-radius: 0;
+-webkit-border-top-right-radius: 0;
+-goog-ms-border-top-left-radius: 0;
+-goog-ms-border-top-right-radius: 0;
+border-top-left-radius: 0;
+border-top-right-radius: 0;
 }
 .mobile .date-outer {
-border-color: $(post.border.color);
+border-color: #d4d4d4;
 border-width: 0 1px 1px;
 }
 .mobile .date-outer:last-child {
@@ -706,11 +706,11 @@ padding: 7px 0 0;
 }
 .mobile #blog-pager {
 border: 1px solid transparent;
-background: $(footer.background.color) $(footer.background.gradient) repeat scroll 0 0;
+background: #444444 none repeat scroll 0 0;
 }
 .mobile .main-inner .column-left-inner,
 .mobile .main-inner .column-right-inner {
-background: $(widget.outer.background.color) $(widget.outer.background.gradient) repeat 0 0;
+background: rgba(0, 0, 0, 0) none repeat 0 0;
 -moz-box-shadow: none;
 -webkit-box-shadow: none;
 -goog-ms-box-shadow: none;
@@ -728,37 +728,37 @@ border-top: inherit;
 margin-bottom: 0;
 }
 .mobile-index-contents {
-color: $(body.text.color);
+color: #444444;
 }
 .mobile .mobile-link-button {
-background: $(link.color) $(tabs.background.gradient) repeat scroll 0 0;
+background: #cc0000 none repeat scroll 0 0;
 }
 .mobile-link-button a:link, .mobile-link-button a:visited {
-color: $(mobile.button.color);
+color: #ffffff;
 }
 .mobile .tabs-inner .PageList .widget-content {
 background: transparent;
 border-top: 1px solid;
-border-color: $(tabs.border.color);
-color: $(tabs.text.color);
+border-color: rgba(0, 0, 0, 0);
+color: #444444;
 }
 .mobile .tabs-inner .PageList .widget-content .pagelist-arrow {
-border-$startSide: 1px solid $(tabs.border.color);
+border-left: 1px solid rgba(0, 0, 0, 0);
 }
 #blog-pager { display:none; }
 .jump-link {
-text-align: left; /* center the button-can also use left or right */ 
+text-align: left; /* center the button-can also use left or right */
 background: transparent;
 }
 .jump-link a {
 background: #E10000 ; /* change background color for the button */
-color: #ffffff; /* change text color */ 
+color: #ffffff; /* change text color */
 padding: 10px;
-border-radius: 0px; /* button shape: 0px for squared edges or 5px for a rounded rectangle */ 
+border-radius: 0px; /* button shape: 0px for squared edges or 5px for a rounded rectangle */
 }
 .jump-link a:hover {
 background: #000000 ; /* change background color on hover */
-color: #ffffff ; /* change text color on hover */  
+color: #ffffff ; /* change text color on hover */
 text-decoration: none;
 }
 a:link {
@@ -788,10 +788,10 @@ box-shadow: 0px 0px 0px transparent !important;
 max-width: 100%;
 max-height: auto;
 display: block;
-margin: auto; 
+margin: auto;
 box-shadow: none;
 border: none;
-padding: 0px; 
+padding: 0px;
 }.sidebar .label-size {font-size:14px;color:#fff!important;}
 .sidebar .label-size a {text-decoration:none;color:#fff!important;font-weight:bold;padding:8px 10px;margin:0 6px 6px 0;float:left;display:block;-moz-transition: all 0.4s ;-o-transition: all 0.4s;-webkit-transition: all 0.4s ;-ms-transition: all 0.4s ;transition: all 0.4s ;}
 .sidebar .label-size-1 a {background:#4A4A4A;border-bottom:3px solid #20262B;}
@@ -964,4 +964,76 @@ font-family: open sans, serif;
 font-size: 16px !important;
 line-height: 30px;
 }
-   
+
+
+body {
+min-width: 1280px;
+}
+.container {
+position: relative;
+width: 100%;
+height: 0;
+padding-bottom: 56.25%;
+}
+.video {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+.mobile .content-outer, .mobile .content-fauxcolumn-outer, .mobile .region-inner {
+min-width: 00px; /*1280px*/
+max-width: 1940px; /*1280px*/
+width: 99%; /*1280px*/
+margin-left:0.5%;
+}
+.content-outer, .content-fauxcolumn-outer, .region-inner {
+min-width: 560px; /*1280px*/
+max-width: 1940px; /*1280px*/
+width: 92%; /*1280px*/
+}
+.main-inner .columns {
+padding-left: 0px;
+padding-right: 365px;
+}
+.main-inner .fauxcolumn-center-outer {
+left: 0px;
+right: 365px;
+/* IE6 does not respect left and right together */
+_width: expression(this.parentNode.offsetWidth -
+parseInt("0px") -
+parseInt("365px") + 'px');
+}
+.main-inner .fauxcolumn-left-outer {
+width: 0px;
+}
+.main-inner .fauxcolumn-right-outer {
+width: 365px;
+}
+.main-inner .column-left-outer {
+width: 0px;
+right: 100%;
+margin-left: -0px;
+}
+.main-inner .column-right-outer {
+width: 365px;
+margin-right: -365px;
+}
+#layout {
+min-width: 0;
+}
+#layout .content-outer {
+min-width: 0;
+width: 800px;
+}
+#layout .region-inner {
+min-width: 0;
+width: auto;
+}
+body#layout div.add_widget {
+padding: 8px;
+}
+body#layout div.add_widget a {
+margin-left: 32px;
+}
